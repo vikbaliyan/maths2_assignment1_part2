@@ -14,3 +14,10 @@ model = tf.keras.Sequential([
 # Fetch the class labels for ImageNet
 response = requests.get("https://storage.googleapis.com/download.tensorflow.org/data/ImageNetLabels.txt")
 class_labels = np.array(response.text.splitlines())
+# Function to preprocess the image
+def preprocess_image(image):
+    image = image.resize((224, 224))  # Resize the image to match the input size of MobileNet V2
+    image = np.array(image) / 255.0  # Normalize pixel values between 0 and 1
+    image = (image - 0.5) * 2.0  # Rescale to [-1, 1]
+    image = np.expand_dims(image, axis=0)  # Add batch dimension
+    return image
