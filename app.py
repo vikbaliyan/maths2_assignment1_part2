@@ -21,3 +21,12 @@ def preprocess_image(image):
     image = (image - 0.5) * 2.0  # Rescale to [-1, 1]
     image = np.expand_dims(image, axis=0)  # Add batch dimension
     return image
+
+# Function to make predictions
+def predict(image):
+    preprocessed_image = preprocess_image(image)
+    predictions = model.predict(preprocessed_image)
+    predicted_class_index = np.argmax(predictions)
+    predicted_class_label = class_labels[predicted_class_index]
+    confidence = predictions[0, predicted_class_index] * 100
+    return predicted_class_label, confidence
