@@ -1,70 +1,121 @@
-# maths2_assignment1_part2
+\# maths2_assignment1_part2
 
-# VisualVortex
+\# VisualVortex
 
-VisualVortex is a sophisticated image classification app developed with the power of the MobileNet V2 model. This application offers users a platform to upload and analyze images accurately and gain valuable insights into their visual content.
+VisualVortex is a sophisticated image classification app developed with
+the power of the MobileNet V2 model. This application offers users a
+platform to upload and analyze images accurately and gain valuable
+insights into their visual content.
 
-## Project Overview
+\## Project Overview
 
-VisualVortex employs the MobileNet V2 deep learning model that has been trained on a large dataset of images for precise image classification and object recognition. Users can upload an image through the app, which is then processed by VisualVortex using the pre-trained model to identify the objects within. The analysis results are displayed to the user, offering a practical tool for image understanding and analysis.
+VisualVortex employs the MobileNet V2 deep learning model that has been
+trained on a large dataset of images for precise image classification
+and object recognition. Users can upload an image through the app, which
+is then processed by VisualVortex using the pre-trained model to
+identify the objects within. The analysis results are displayed to the
+user, offering a practical tool for image understanding and analysis.
 
-## Installation & Usage
+\## Installation & Usage
 
-### Prerequisites
+\### Prerequisites
 
-Ensure the following dependencies are installed before running VisualVortex:
+Ensure the following dependencies are installed before running
+VisualVortex:
 
-- Python 3
-- TensorFlow
-- OpenCV
-- NumPy
-- Streamlit
+\- Python 3
 
-### Installation and Running the App
+\- TensorFlow
+
+\- OpenCV
+
+\- NumPy
+
+\- Streamlit
+
+\### Installation and Running the App
 
 Follow these steps to set up and run VisualVortex:
 
-```bash
-# Clone the repository to your local machine
-git clone <repo_link>
+\`\`\`bash
 
-# Navigate to the cloned repository
-cd <repo_name>
+\# Clone the repository to your local machine
 
-# Install the required packages
+git clone \<repo_link\>
+
+\# Navigate to the cloned repository
+
+cd \<repo_name\>
+
+\# Install the required packages
+
 pip install -r requirements.txt
 
-# Run the app.py file using Python
+\# Run the app.py file using Python
+
 streamlit run app.py
 
-## Features
+\## Features
 
-- User-friendly interface for uploading and analyzing images.
-- Utilizes the MobileNet V2 model for accurate image classification.
-- Real-time processing and analysis of uploaded images.
-- Displays the top predictions and probabilities for the identified objects.
-- Supports a wide range of image formats and sizes.
+\- User-friendly interface for uploading and analyzing images.
 
-## References:
+\- Utilizes the MobileNet V2 model for accurate image classification.
 
-1. MobileNetV2: Inverted Residuals and Linear Bottlenecks, Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen, 2018.
-2. TensorFlow: An open-source platform for machine learning, https://www.tensorflow.org/
-3. OpenCV: Open Source Computer Vision Library, https://opencv.org/
-4. NumPy: The fundamental package for scientific computing with Python, https://numpy.org/
-5. ChatGPT OpenAi
-6. https://www.section.io/engineering-education/building-a-multiclass-image-classifier-using-mobilenet-v2-and-tensorflow/
-7. https://medium.com/@nutanbhogendrasharma/image-classification-model-mobilenet-v2-from-tensorflow-hub-8191b28a202a
-8. "The OpenCV Library", Gary Bradski, Dr. Adrian Kaehler, 2018. [Link](https://www.mendeley.com/catalogue/the-opencv-library/)
-9. "NumPy: A Guide to NumPy", Travis E. Oliphant, 2006. [Link](https://numpy.org/doc/stable/user/)
-10. "MobileNetV2: Inverted Residuals and Linear Bottlenecks", TensorFlow Hub, 2020. [Link](https://tfhub.dev/s?module-type=image-classification)
-11. "Image Classification with Transfer Learning using MobileNetV2", TensorFlow Tutorial. [Link](https://www.tensorflow.org/tutorials/images/transfer_learning)
+\- Real-time processing and analysis of uploaded images.
 
+\- Displays the top predictions and probabilities for the identified
+objects.
 
-## License
+\- Supports a wide range of image formats and sizes.
 
-This project is licensed under the [MIT License](LICENSE).
+\## References:
 
-## Streamlit app
-![Image Description 1](abc.png)
+1\. MobileNetV2: Inverted Residuals and Linear Bottlenecks, Mark
+Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh
+Chen, 2018.
 
-![Image Description 2](https://github.com/vikbaliyan/maths2_assignment1_part2/raw/05cbc3a0ea8ebab1236c74e882f5f5bf0daa6061/images/bcd.png)
+2\. TensorFlow: An open-source platform for machine learning,
+https://www.tensorflow.org/
+
+3\. OpenCV: Open Source Computer Vision Library, https://opencv.org/
+
+4\. NumPy: The fundamental package for scientific computing with Python,
+https://numpy.org/
+
+5\. ChatGPT OpenAi
+
+6\.
+https://www.section.io/engineering-education/building-a-multiclass-image-classifier-using-mobilenet-v2-and-tensorflow/
+
+7\.
+https://medium.com/@nutanbhogendrasharma/image-classification-model-mobilenet-v2-from-tensorflow-hub-8191b28a202a
+
+8\. \"The OpenCV Library\", Gary Bradski, Dr. Adrian Kaehler, 2018.
+\[Link\](https://www.mendeley.com/catalogue/the-opencv-library/)
+
+9\. \"NumPy: A Guide to NumPy\", Travis E. Oliphant, 2006.
+\[Link\](https://numpy.org/doc/stable/user/)
+
+10\. \"MobileNetV2: Inverted Residuals and Linear Bottlenecks\",
+TensorFlow Hub, 2020.
+\[Link\](https://tfhub.dev/s?module-type=image-classification)
+
+11\. \"Image Classification with Transfer Learning using MobileNetV2\",
+TensorFlow Tutorial.
+\[Link\](https://www.tensorflow.org/tutorials/images/transfer_learning)
+
+\## License
+
+This project is licensed under the \[MIT License\](LICENSE).
+
+\## Streamlit app
+
+Home Page:
+
+![A screenshot of a computer Description automatically
+generated](images/abc.png)
+
+Final Output:
+
+![A screenshot of a cat Description automatically
+generated](images/bcd.png)
