@@ -1,6 +1,6 @@
-streamlit
-tensorflow
-tensorflow_hub
-numpy
-Pillow
-requests
+streamlit==1.24.1
+tensorflow==2.13.0
+tensorflow_hub==0.13.0
+numpy==1.23.5
+Pillow==9.5.0
+requests==2.31.0
