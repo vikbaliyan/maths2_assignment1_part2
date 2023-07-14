@@ -30,3 +30,6 @@ def predict(image):
     predicted_class_label = class_labels[predicted_class_index]
     confidence = predictions[0, predicted_class_index] * 100
     return predicted_class_label, confidence
+
+# Streamlit app
+st.title("Image Classification with MobileNet V2")
