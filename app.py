@@ -36,3 +36,15 @@ st.title("Image Classification with MobileNet V2")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose an image file", type=["jpg", "jpeg", "png"])
+
+if uploaded_file is not None:
+    # Display the uploaded image
+    image = Image.open(uploaded_file)
+    st.image(image, caption="Uploaded Image", use_column_width=True)
+
+    # Make predictions when the user clicks the "Classify" button
+    if st.button("Classify"):
+        # Predict the class label and confidence score
+        predicted_label, confidence = predict(image)
+        st.write("Prediction:", predicted_label)
+        st.write("Confidence:", f"{confidence:.2f}%")
