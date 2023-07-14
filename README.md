@@ -65,6 +65,6 @@ streamlit run app.py
 This project is licensed under the [MIT License](LICENSE).
 
 ## Streamlit app
-![Image 1](https://github.com/vikbaliyan/maths2_assignment1_part2/raw/main/images/Screenshot%202023-07-14%20at%2016.45.49.png)
+![Image Description 1](https://github.com/vikbaliyan/maths2_assignment1_part2/raw/05cbc3a0ea8ebab1236c74e882f5f5bf0daa6061/images/abc.png)
 
-![Image 2](https://github.com/vikbaliyan/maths2_assignment1_part2/raw/main/images/Screenshot%202023-07-14%20at%2016.49.08.png)
+![Image Description 2](https://github.com/vikbaliyan/maths2_assignment1_part2/raw/05cbc3a0ea8ebab1236c74e882f5f5bf0daa6061/images/bcd.png)
