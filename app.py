@@ -11,3 +11,6 @@ model = tf.keras.Sequential([
                    output_shape=[1280],
                    trainable=False)
 ])
+# Fetch the class labels for ImageNet
+response = requests.get("https://storage.googleapis.com/download.tensorflow.org/data/ImageNetLabels.txt")
+class_labels = np.array(response.text.splitlines())
