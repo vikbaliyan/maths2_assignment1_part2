@@ -33,3 +33,6 @@ def predict(image):
 
 # Streamlit app
 st.title("Image Classification with MobileNet V2")
+
+# File uploader
+uploaded_file = st.file_uploader("Choose an image file", type=["jpg", "jpeg", "png"])
