@@ -1,13 +1,13 @@
-\# maths2_assignment1_part2
+# maths2_assignment1_part2
 
-\# VisualVortex
+# VisualVortex
 
 VisualVortex is a sophisticated image classification app developed with
 the power of the MobileNet V2 model. This application offers users a
 platform to upload and analyze images accurately and gain valuable
 insights into their visual content.
 
-\## Project Overview
+## Project Overview
 
 VisualVortex employs the MobileNet V2 deep learning model that has been
 trained on a large dataset of images for precise image classification
@@ -16,9 +16,9 @@ is then processed by VisualVortex using the pre-trained model to
 identify the objects within. The analysis results are displayed to the
 user, offering a practical tool for image understanding and analysis.
 
-\## Installation & Usage
+## Installation & Usage
 
-\### Prerequisites
+### Prerequisites
 
 Ensure the following dependencies are installed before running
 VisualVortex:
@@ -39,23 +39,23 @@ Follow these steps to set up and run VisualVortex:
 
 \`\`\`bash
 
-\# Clone the repository to your local machine
+# Clone the repository to your local machine
 
 git clone \<repo_link\>
 
-\# Navigate to the cloned repository
+# Navigate to the cloned repository
 
 cd \<repo_name\>
 
-\# Install the required packages
+# Install the required packages
 
 pip install -r requirements.txt
 
-\# Run the app.py file using Python
+# Run the app.py file using Python
 
 streamlit run app.py
 
-\## Features
+## Features
 
 \- User-friendly interface for uploading and analyzing images.
 
@@ -68,7 +68,7 @@ objects.
 
 \- Supports a wide range of image formats and sizes.
 
-\## References:
+## References:
 
 1\. MobileNetV2: Inverted Residuals and Linear Bottlenecks, Mark
 Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh
@@ -104,18 +104,18 @@ TensorFlow Hub, 2020.
 TensorFlow Tutorial.
 \[Link\](https://www.tensorflow.org/tutorials/images/transfer_learning)
 
-\## License
+## License
 
 This project is licensed under the \[MIT License\](LICENSE).
 
-\## Streamlit app
+## Streamlit app
 
-Home Page:
+## Home Page:
 
 ![A screenshot of a computer Description automatically
 generated](images/abc.png)
 
-Final Output:
+## Final Output:
 
 ![A screenshot of a cat Description automatically
 generated](images/bcd.png)
